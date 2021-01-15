@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 1</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div>
+        <ol>
+            <li>
+                <div class='questions'>
+                    <pre>
+    <code>
+
+<mark class='reserve'>let</mark> a = 0;
+<mark class='reserve'>let</mark> b = 1;
+the result of a ?? b is:
+    </code>
+</pre>
+                </div>
+                <div class='choices'>
+                    <ol class='answers'>
+                        <li>
+                            0
+                        </li>
+                        <li>
+                            1
+                        </li>
+                        <li>
+                            01
+                        </li>
+                        <li>
+                            undefined
+                        </li>
+                    </ol>
+                </div>
+            </li>
+            <li>
+                <div class='questions'>
+                    <pre>
+    <code>
+<mark class='reserve'>let</mark> a = 0;
+<mark class='reserve'>let</mark> b = 1;
+the result of a || b is:
+    </code>
+</pre>
+                </div>
+                <div class='choices'>
+                    <ol class='answers'>
+                        <li>
+                            0
+                        </li>
+                        <li>
+                            1
+                        </li>
+                        <li>
+                            -1
+                        </li>
+                        <li>
+                            undefined
+                        </li>
+                    </ol>
+                </div>
+            </li>
+            <li>
+                <div class='questions'>
+                    <pre>
+    <code>
+<mark class='reserve'>let</mark> a;
+<mark class='reserve'>let</mark> b = 1;
+the result of a && b is:
+    </code>
+</pre>
+                </div>
+                <div class='choices'>
+                    <ol class='answers'>
+                        <li>
+                            0
+                        </li>
+                        <li>
+                            1
+                        </li>
+                        <li>
+                            false
+                        </li>
+                        <li>
+                            undefined
+                        </li>
+                    </ol>
+                </div>
+            </li>
+            <li>
+                <div class='questions'>
+                    <pre>
+    <code>
+<mark class='reserve'>function</mark> addOne(){
+    <mark class='reserve'>let</mark> count = 0;
+    count++;
+    <mark class='reserve'>return</mark> count
+}
+<mark class='reserve'>let</mark> temp = addOne;
+temp();
+temp();
+what is the output?
+    </code>
+</pre>
+                </div>
+                <div class='choices'>
+                    <ol class='answers'>
+                        <li>
+                            undefined
+                        </li>
+                        <li>
+                            1
+                        </li>
+                        <li>
+                            2
+                        </li>
+                        <li>
+                            1,1
+                        </li>
+                    </ol>
+                </div>
+            </li>
+            <li>
+                <div class='questions'>
+                    <pre>
+<code>
+<mark class='reserve'>function</mark> f() {
+    <mark class='reserve'>let</mark> value = 0;
+    <mark class='reserve'>return</mark> <mark class='reserve'>function</mark>() {
+        console.log(value)
+    }
+}
+<mark class='reserve'>let</mark> g = f()
+what is output of g(1)
+</code>
+</pre>
+                </div>
+                <div class='choices'>
+                    <ol class='answers'>
+                        <li>
+                            1
+                        </li>
+                        <li>
+                            0
+                        </li>
+                        <li>
+                            nothing
+                        </li>
+                        <li>
+                            undefined
+                        </li>
+                    </ol>
+                </div>
+            </li>
+            <li>
+                <div class='questions'>
+                    <pre>
+<code>
+
+<mark class='reserve'>function</mark> f(num) {
+    <mark class='reserve'>let</mark> value = num;
+
+    <mark class='reserve'>return</mark> <mark class='reserve'>function</mark>(num) {
+    console.log(value)
+    }
+}
+<mark class='reserve'>let</mark> g = f(0)
+what is output of g(1)
+</pre>
+                    </code>
+                </div>
+                <div class='choices'>
+                    <ol class='answers'>
+                        <li>
+                            0
+                        </li>
+                        <li>
+                            1
+                        </li>
+                        <li>
+                            error
+                        </li>
+                        <li>
+                            undefined
+                        </li>
+                    </ol>
+                </div>
+            </li>
+        </ol>
+    </div>
+    <div>
+        <input type="button" value="back" onclick="history.back(-1)" />
+    </div>
+</body>
+
+</html>

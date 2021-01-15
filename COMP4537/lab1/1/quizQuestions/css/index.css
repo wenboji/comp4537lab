@@ -1,0 +1,7 @@
+.answers {
+  list-style-type: lower-alpha;
+}
+mark.reserve {
+  color: #4287f5;
+  background: none;
+}
